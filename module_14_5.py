@@ -10,7 +10,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeybo
 
 import crud_functions as crud
 
-api = '8024437073:AAGnK78qNxK_Zr3UsWVme4tSCnR-iJQLhDA'
+api = 'token'
 bot = Bot(token=api)
 dp = Dispatcher(bot=bot, storage=MemoryStorage())
 start_flag = False
